@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <!--CSS STYLE-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@700&family=Kumar+One&family=Mukta:wght@700&family=Tiro+Devanagari+Sanskrit:ital@1&display=swap');
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightgray;
+            font-family: 'Baloo Bhaijaan 2', 'cursive';
+        }
+
+        #header {
+            text-align: center;
+            font-size: 15px;
+            color: darkgreen;
+        }
+
+        #back {
+            display: inline-block;
+            position: absolute;
+            left: 19px;
+        }
+
+        #back a {
+            text-decoration: none;
+        }
+
+
+        #header::first-letter {
+            color: orangered;
+            font-size: xx-large;
+        }
+
+        .img_container {
+            float: left;
+            padding: 10px;
+            text-align: center;
+        }
+
+        div.img_container img {
+            height: 170px;
+            width: 246px;
+        }
+
+        div.img_container img:hover {
+            opacity: 0.8;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .clearfix{
+            margin: auto;
+        }
+
+        /*Back Button*/
+        .btn a {
+            text-decoration: none;
+            font-family: 'Baloo Bhaijaan 2', 'cursive';
+            color: darkgreen;
+        }
+
+        .btn {
+            padding: 5px;
+            border: 2px solid darkgreen;
+            border-radius: 10px;
+        }
+
+        .btn::first-letter {
+            color: orangered;
+            font-size: large;
+        }
+
+        .btn:hover {
+            background-color: rgb(190, 190, 190);
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <div id="back">
+            <button class="btn">
+                <a href="homepage.php">Back</a>
+            </button>
+        </div>
+
+        <div id="header">
+            <h2>Where2Go</h2>
+        </div>
+    </header>
+
+    <!--Menu-->
+    <div class="clearfix">
+        <!--JK-->
+        <div class="img_container">
+            <a href="Jammu_&_Kashmir.html"><img src="jk.jpg" alt=""></a>
+            <div id="jk" class="design">
+                <button class="btn">
+                    <a href="Jammu_&_Kashmir.html">Jammu & Kashmir</a>
+                </button>
+            </div>
+        </div>
+
+        <!--leh-->
+        <div class="img_container">
+            <a href="leh_ladakh.html"><img src="leh.jpg" alt=""></a>
+            <div id="jk" class="design">
+                <button class="btn">
+                    <a href="leh_ladakh.html">Leh Ladakh</a>
+                </button>
+            </div>
+        </div>
+
+        <!--HP-->
+        <div class="img_container">
+            <a href="Himachal.html"><img src="hp.jpg" alt=""></a>
+            <div id="hp" class="design">
+                <button class="btn">
+                    <a href="Himachal.html">Himachal Pradesh</a>
+                </button>
+            </div>
+        </div>
+
+        <!--DL-->
+        <div class="img_container">
+            <a href="Delhi.html"><img src="dl.jpg" alt=""></a>
+            <div id="dl" class="design">
+                <button class="btn">
+                    <a href="Delhi.html">Delhi & Agra</a>
+                </button>
+            </div>
+        </div>
+
+        <!--UK-->
+        <div class="img_container">
+            <a href="uttarakhand.html"><img src="uk.jpg" alt=""></a>
+            <div id="uk" class="design">
+                <button class="btn">
+                    <a href="uttarakhand.html">Uttarakhand</a>
+                </button>
+            </div>
+        </div>
+
+        <!--Rj-->
+        <div class="img_container">
+            <a href="Rajasthan.html"><img src="rj.jpeg" alt=""></a>
+            <div id="rj" class="design">
+                <button class="btn">
+                    <a href="Rajasthan.html">Rajasthan</a>
+                </button>
+            </div>
+        </div>
+
+        <!--North Bengal-->
+        <div class="img_container">
+            <a href="north_bengal.html"><img src="darjelling.jpg" alt=""></a>
+            <div id="nb" class="design">
+                <button class="btn">
+                    <a href="north_bengal.html">North Bengal</a>
+                </button>
+            </div>
+        </div>
+
+        <!--South Bengal-->
+        <div class="img_container">
+            <a href="South_Bengal.html"><img src="wb.jpg" alt=""></a>
+            <div id="kol" class="design">
+                <button class="btn">
+                    <a href="South_Bengal.html">South Bengal</a>
+                </button>
+            </div>
+        </div>
+
+        <!--North East-->
+        <div class="img_container">
+            <a href="North_East.html"><img src="ne.jpg" alt=""></a>
+            <div id="ne" class="design">
+                <button class="btn">
+                    <a href="North_East.html">North East</a>
+                </button>
+            </div>
+        </div>
+
+        <!--Sikkim-->
+        <div class="img_container">
+            <a href="Skkim.html"><img src="(Sikkim)Lachung-City-In-between-the-Mountain-Ranges.jpg" alt=""></a>
+            <div id="sk" class="design">
+                <button class="btn">
+                    <a href="Skkim.html">Sikkim</a>
+                </button>
+            </div>
+        </div>
+
+        <!--Jharkhand-->
+        <div class="img_container">
+            <a href="Oddisha.html"><img src="jh.jpg" alt=""></a>
+            <div id="jh" class="design">
+                <button class="btn">
+                    <a href="Oddisha.html">Oddisha & Jharkhand</a>
+                </button>
+            </div>
+        </div>
+
+        <!--UP-->
+        <div class="img_container">
+            <a href="Up.html"><img src="up.jpg" alt=""></a>
+            <div id="up" class="design">
+                <button class="btn">
+                    <a href="Up.html">Uttar Pradesh</a>
+                </button>
+            </div>
+        </div>
+
+        <!--Maharastha-->
+        <div class="img_container">
+            <a href="Mumbai.html"><img src="mum.jpg" alt=""></a>
+            <div id="mum" class="design">
+                <button class="btn">
+                    <a href="Mumbai.html">Maharastha</a>
+                </button>
+            </div>
+        </div>
+
+        <!--South India-->
+        <div class="img_container">
+            <a href="South_India.html"><img src="south.jpg" alt=""></a>
+            <div id="up" class="design">
+                <button class="btn">
+                    <a href="South_India.html">South India</a>
+                </button>
+            </div>
+        </div>
+
+        <!--Islands-->
+        <div class="img_container">
+            <a href="Islands.html"><img src="LAKSHADWEEP-ISLANDS.jpg" alt=""></a>
+            <div id="up" class="design">
+                <button class="btn">
+                    <a href="Islands.html">Islands</a>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

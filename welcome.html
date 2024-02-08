@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to India</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@700&family=Kumar+One&family=Mukta:wght@700&family=Tiro+Devanagari+Sanskrit:ital@1&display=swap');
+        body{
+            background-color: lightgray;
+            font-family: 'Baloo Bhaijaan 2', 'cursive';
+            
+        }
+        #logo img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            position: relative;
+            left: 17px;
+            top: 9px;
+        }
+
+        #logo {
+            /*border: 1px solid green;*/
+            position: absolute;
+            top: -3px;
+            left: 9px;
+        }
+
+        .exp {
+            color: green;
+            text-align: center;
+        }
+
+        .exp::first-letter {
+            color: orangered;
+            font-size: large;
+        }
+        div.vid{
+            /*border: 1px solid red;*/
+            position: relative;
+            width: 500px;
+            height: 300px;
+            left: 170px;
+            top: 30px;
+        }
+        div.vid video{
+            width: 1000px;
+            height: 550px;
+            margin: auto;
+           /*border: 2px dotted orangered;*/
+           /* border-radius: 150px;*/
+            background-color: rgba(226, 217, 217, 0.1);
+            padding: 10px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"> 
+
+        <div class="div2">
+
+            <!--LOGO-->
+            <div id="logo">
+                <img src="background1.gif" alt="">
+                <div class="exp">
+                    Explore India
+                </div>
+            </div>
+
+            <!--Video-->
+        <div class="vid">
+            <video controls>
+                <source src="VID_20220807005704.mp4" type="video/mp4">
+                <source src="VID_20220807005704.ogg" type="video/ogg">
+    
+            </video>
+        </div>
+
+    </div>
+    
+</body>
+</html>

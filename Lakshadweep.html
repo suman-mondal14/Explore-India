@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshadweep</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@700&family=Kumar+One&family=Mukta:wght@700&family=Tiro+Devanagari+Sanskrit:ital@1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&family=Lobster&family=Permanent+Marker&family=Satisfy&display=swap');
+
+        body {
+            background-color: lightgray;
+            font-family: 'Baloo Bhaijaan 2', 'cursive';
+        }
+
+        #back {
+            display: inline-block;
+            position: absolute;
+            left: 19px;
+        }
+
+        #back a {
+            text-decoration: none;
+        }
+
+        /*Back Button*/
+        .btn a {
+            text-decoration: none;
+            font-family: 'Baloo Bhaijaan 2', 'cursive';
+            color: darkgreen;
+        }
+
+        .btn {
+            padding: 5px;
+            border: 2px solid darkgreen;
+            border-radius: 10px;
+        }
+
+        .btn::first-letter {
+            color: orangered;
+            font-size: large;
+        }
+
+        .btn:hover {
+            background-color: rgb(190, 190, 190);
+        }
+
+        #header h2 {
+            text-align: center;
+            font-family: 'Satisfy', 'cursive';
+            color: darkgreen;
+            font-size: 30px;
+        }
+
+        #header h2::first-letter {
+            color: orangered;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 2px solid orange;
+            float: left;
+            width: 252px;
+        }
+
+        div.gallery:hover {
+            border: 2px solid orangered;
+            /*width: 350px;*/
+        }
+
+        div.gallery img:hover {
+            opacity: 0.7;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: 150px;
+        }
+
+        div.desc {
+            padding: 10px;
+            text-align: center;
+            color: darkgreen;
+        }
+
+        div.desc::first-letter {
+            color: orangered;
+            font-size: larger;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <div id="back">
+            <button class="btn">
+                <a href="Islands.html">Back</a>
+            </button>
+        </div>
+        <div id="header">
+            <h2>Lakshadweep</h2>
+        </div>
+    </header>
+
+    <!--Minicoy Island-->
+    <div class="gallery">
+        <a target="_blank" href="Lakshadweep/5dde4f512f597-Minicoy_Island_Attractions.jpg">
+            <img src="Lakshadweep/5dde4f512f597-Minicoy_Island_Attractions.jpg" alt="" width="300" height="200">
+        </a>
+        <div class="desc">Minicoy Island</div>
+    </div>
+
+    <!--Kalpeny Island-->
+    <div class="gallery">
+        <a target="_blank" href="Lakshadweep/5ddcc4620f2e0-Kalpeni_Island_Attractions.jpg">
+            <img src="Lakshadweep/5ddcc4620f2e0-Kalpeni_Island_Attractions.jpg" alt="" width="300" height="200">
+        </a>
+        <div class="desc">Kalpeny Island</div>
+    </div>
+
+    <!--Kadmat Island-->
+    <div class="gallery">
+        <a target="_blank" href="Lakshadweep/kadmat-island.jpg">
+            <img src="Lakshadweep/kadmat-island.jpg" alt="" width="300" height="200">
+        </a>
+        <div class="desc">Kadmat Island</div>
+    </div>
+
+</body>
+
+</html>

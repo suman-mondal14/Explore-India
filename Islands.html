@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islands</title>
+    <!--CSS STYLE-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@700&family=Kumar+One&family=Mukta:wght@700&family=Tiro+Devanagari+Sanskrit:ital@1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&family=Lobster&family=Permanent+Marker&family=Satisfy&display=swap');
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightgray;
+            font-family: 'Baloo Bhaijaan 2', 'cursive';
+        }
+
+        #header {
+            text-align: center;
+            font-size: 15px;
+            color: darkgreen;
+            font-family: 'Satisfy', 'cursive';
+        }
+
+        #back {
+            display: inline-block;
+            position: absolute;
+            left: 19px;
+        }
+
+        #back a {
+            text-decoration: none;
+        }
+
+
+        #header::first-letter {
+            color: orangered;
+            font-size: xx-large;
+        }
+
+        .img_container {
+            float: left;
+            padding: 10px;
+            text-align: center;
+        }
+
+        div.img_container img {
+            height: 200px;
+            width: 360px;
+        }
+
+        div.img_container img:hover {
+            opacity: 0.8;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /*Menu*/
+        .btn a {
+            text-decoration: none;
+            font-family: 'Baloo Bhaijaan 2', 'cursive';
+            color: darkgreen;
+        }
+
+        .btn {
+            padding: 5px;
+            border: 2px solid darkgreen;
+            border-radius: 10px;
+        }
+
+        .btn::first-letter {
+            color: orangered;
+            font-size: large;
+        }
+
+        .btn:hover {
+            background-color: rgb(190, 190, 190);
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <div id="back">
+            <button class="btn">
+                <a href="Explore_page.html">Back</a>
+            </button>
+        </div>
+
+        <div id="header">
+            <h2>Islands</h2>
+        </div>
+    </header>
+
+    <!--Menu-->
+    <div class="clearfix">
+        <!--Andaman-->
+        <div class="img_container">
+            <a href="Andaman.html"><img src="Andaman.jpg" alt=""></a>
+            <div id="jk" class="design">
+                <button class="btn">
+                    <a href="Andaman.html">Andaman & Nicobar Islands</a>
+                </button>
+            </div>
+        </div>
+
+        <!--leh-->
+        <div class="img_container">
+            <a href="Lakshadweep.html"><img src="Lakshadweep.jpg" alt=""></a>
+            <div id="jk" class="design">
+                <button class="btn">
+                    <a href="Lakshadweep.html">Lakshadweep</a>
+                </button>
+            </div>
+        </div>

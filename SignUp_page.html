@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up in Explore India</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@700&family=Kumar+One&family=Mukta:wght@700&family=Tiro+Devanagari+Sanskrit:ital@1&display=swap');
+
+        body {
+            background-color: lightgray;
+            font-family: 'Baloo Bhaijaan 2', 'cursive';
+        }
+
+        /*LOGO*/
+        .logo img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            position: relative;
+            left: 17px;
+            top: 9px;
+        }
+
+        .logo {
+            /*border: 1px solid green*/
+            position: absolute;
+            top: -3px;
+            left: 9px;
+        }
+
+        .exp {
+            color: green;
+            text-align: center;
+        }
+
+        .exp::first-letter {
+            color: orangered;
+            font-size: large;
+        }
+
+        /*SIGN UP*/
+        .box {
+            border: 2px solid rgb(46, 170, 108);
+            /*background-color: rgb(46, 170, 108);*/
+            color: black;
+            border-radius: 15px;
+            text-align: center;
+            position: relative;
+            width: 400px;
+            height: 470px;
+            margin: auto;
+            top: 80px;
+        }
+
+        /*Form Design*/
+        form span {
+            color: blue;
+            cursor: pointer;
+        }
+        form span:hover{
+            color: darkblue;
+        }
+
+        /*Create Account Button*/
+        .click3 button {
+            position: relative;
+            bottom: 45px;
+            left: 570px;
+            width: 219px;
+            top: -22px;
+            border: 1px solid rgb(46, 170, 108);
+            background-color: rgb(46, 170, 108);
+            border-radius: 40px;
+            font-family: 'Baloo Bhaijaan 2', 'cursive';
+            font-size: medium;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .click3 button:hover {
+            border: 1px solid rgb(23, 112, 67);
+            background-color: rgb(23, 112, 67);
+        }
+
+        /*Sign in mesaaage*/
+        div.box .already {
+            position: absolute;
+            left: 85px;
+            bottom: 17px;
+
+        }
+
+        div.box .already a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        div.box .already a:hover {
+            color: rgb(0, 0, 107);
+        }
+
+        /*Inpute styles*/
+        .in {
+            background-color:white;
+            padding: 5px;
+            padding-left: 10px;
+            border-radius: 20px;
+            border: 1px solid rgb(23, 112, 67);
+            font-family: 'Baloo Bhaijaan 2', 'cursive';
+        }
+        .tc{
+            /*border: 1px solid red;*/
+            position: relative;
+            top: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--LOGO-->
+    <div class="logo">
+        <img src="background1.gif" alt="">
+        <div class="exp">
+            Explore India
+        </div>
+    </div>
+
+    <!--Sign Up Box-->
+    <div class="box">
+        <h1>Sign Up</h1>
+
+        <form>
+            <input type="text" name="name" id="name" class="in" placeholder="Name">
+            <br><br>
+            <input type="email" name="mail" id="mail" class="in" placeholder="Email">
+            <br><br>
+            <input type="number" name="number" id="number" class="in" placeholder="Phone Number">
+            <br><br>
+            <input type="password" name="password" id="password" class="in" placeholder="Create Password">
+            <br>
+            <div class="tc">
+                <input type="checkbox" name="t&c" id="t&c"> &nbsp; I read and agree to <span>Terms & Conditions</span>
+            </div>
+            
+        </form>
+
+        <div class="already">
+            Already have an account ? <a href="Login_Page.html">Sign in</a>
+        </div>
+
+    </div>
+
+    <div class="click3">
+        <a href="personal_details.html">
+            <button>CREATE ACCOUNT</button>
+        </a>
+    </div>
+
+
+
+</body>
+
+</html>
